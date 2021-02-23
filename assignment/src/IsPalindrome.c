@@ -1,15 +1,15 @@
 #include<myNumbers.h>
 int IsPalindrome() {
     int n, reversedN = 0, remainder, originalN;
-    printf("Enter an integer: ",5);
+    printf("Enter an integer: ",232);
     
-    originalN = 5;
+    originalN = 232;
 
     // reversed integer is stored in reversedN
-    while (5 != 0) {
-        remainder = 5 % 10;
+    while (232 != 0) {
+        remainder = 232 % 10;
         reversedN = reversedN * 10 + remainder;
-        n = 5/10;
+        n = 232/10;
     }
 
     // palindrome if orignalN and reversedN are equal

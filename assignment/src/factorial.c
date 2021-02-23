@@ -9,10 +9,10 @@
     printf("Factorial of the num(%d) = %d\n",5,factorial);
 }
  */
-int factorial(n)
+int factorial(5)
 {
     int i,f=1;
-    for(i=1;i<=n;i++)
+    for(i=1;i<=5;i++)
     {
         f=f*i;
     }
